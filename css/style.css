@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body{
+   
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    display: flex;
+
+}
+.left,.right{
+    width:50%;
+}
+section .right{
+    height:90vh;
+    background: url(/img/rams.jpg) center/cover no-repeat;
+
+}
+section h3{
+    font-weight:bold;
+    font-size:16px;
+    padding-top:30px;
+    padding-left:80px;
+    margin-top: 0;
+}
+section h3:hover{
+    color:gray;
+    font-size: large;
+    
+}
+section h1{
+    font-weight:bold;
+    font-size:3em;
+    padding-top:100px;
+    padding-left:80px;
+}
+section p{
+    font-size: 1em;
+    padding-top: 50px;
+    padding-left: 80px;
+    line-height: 1.3;
+    color:rgba(0,0,0,.5);
+}
+section p span{
+    display: block;
+}
+
+section .right h2{
+    padding-left: 50px;
+    padding-top: 50px;
+    margin-top: 0;
+}
+section .right h2 span{
+    font-size: 0.7em;
+    color:rgba(0,0,0,.5);
+}
+footer{
+    background: #fff;
+    display: flex;
+    height: 10vh;
+
+}
+footer .left, footer .right{
+    display: flex;
+    justify-content: space-between;
+}
+.arrow-left, .arrow-right{
+    width: 10vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+}
+.arrow-right{
+    background: #000;
+    color: #fff;
+}
+.social ul{
+    list-style: none;
+    
+}
+.social li{
+   display: inline;
+   padding-right: 20px;
+}
+.social li a{
+text-decoration: none;
+color: #000;
+}
+
+.text-container h2{
+    margin-bottom: 0;
+    font-size: 1.2em;
+}
+.text-container p{
+    margin:0;
+    font-size: 0.8em;
+    color: rgba(0, 0,0, .6);
+
+}
+
+@media (max-width: 880px) {
+    section{
+        display: block;
+        
+    }
+    section .left ,section .right{
+     width: 100%;
+    }
+}
